@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+/*General----------------------------------------*/
+
+body {
+  margin: auto;
+  font: 1em/1.4 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-shadow: 0 1px 1px rgba(0,0,0, .9);
+  text-transform: uppercase;
+  font: 3em 'Roboto Condensed', sans-serif;
+  color: rgba(244,247,238,.9)
+}
+
+h2 {
+  font-family: 1em/1.5 'Roboto Condensed', sans-serif;
+  text-shadow: 0 1px 1px rgba(159, 188, 183, .5);
+}
+
+span,
+.footer {
+  color: rgba(244,247,238,.6) 
+}
+
+/*Layout----------------------------------------*/
+
+.primary-header {
+  height: 175px;
+  background: ;
+  text-align: center; 
+  background: #43877B; 
+  box-sizing: border-box;
+  padding: 1%;
+}
+
+.navigation {
+  padding: 1%;
+  background: #6CA299;
+  display: block;
+  text-align: center;
+  color: #9FBCB7;
+}
+
+.column-1 {
+  width: 60.8%;
+  padding: 1% 5%;
+  float: left;
+  border-top: 10px solid #9FC462;
+}
+
+.column-2 {
+  width: 39.2%;
+  margin: 0;
+  padding: 1% 5%;
+  float: right;
+  border-top: 10px solid #B05883;
+}
+
+.footer {
+  background-color: #6CA299;
+  margin: 0;
+  clear: both;
+  padding: 15px;
+}
+
+
+.wrap {
+  margin: auto;
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+}
+
+/*Pseudo-Classes------------------------------*/
+
+a:link {
+  color: #287165;
+}
+a:visited {
+  color: #B26D34;
+}
+
+body a:hover {
+  color: #7CA53A;
+}
+
+nav a:hover {
+  color: #B05883;
+}
+
+nav a:link {
+  color: #287165;
+}
+
+a:active {
+  color: #943463;
+}
+
